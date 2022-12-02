@@ -25,6 +25,11 @@ public class DialogueTracker : MonoBehaviour
     //    SetText();
     //}
 
+    public void SetDialogue(QD_Dialogue dialogue)
+    {
+        handler.SetDialogue(dialogue);
+    }
+
     public void SetConversation(string s)
     {
         Conversation = s;
@@ -133,8 +138,11 @@ public class DialogueTracker : MonoBehaviour
         SetText();
         // End if there is no next message
         if (handler.currentMessageInfo.ID < 0)
+        {
+            Player.Instance.Pause = false;
+            Time.timeScale = 1.0f;
             Destroy(this.gameObject.transform.parent.gameObject);
-
+        }
     }
 
     public void Choose(int choice)
