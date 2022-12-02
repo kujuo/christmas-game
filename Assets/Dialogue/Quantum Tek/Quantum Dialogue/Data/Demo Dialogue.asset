@@ -38,13 +38,6 @@ MonoBehaviour:
     NextMessage: -1
     MessageText: 2
     Clip: {fileID: 0}
-  - ID: 7
-    Speaker: 0
-    SpeakerName: Bob
-    PreviousMessage: -1
-    NextMessage: -1
-    MessageText: 3
-    Clip: {fileID: 0}
   - ID: 9
     Speaker: -1
     SpeakerName: 

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Opening_Dialogue
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 1
+    Name: Opening Cutscene
+    FirstMessage: 2
+  Speakers:
+  - ID: 0
+    Name: Mother
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 2
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: "And I lost it! Can you believe it? All those years and I lost it.
+      \n"
+    Clip: {fileID: 0}
+  - ID: 5
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 8
+    MessageText: "I knew you weren\u2019t listening. All you young people and your
+      \nphones and your laptops these days. I\u2019m talking about my little \nThe
+      gingerbread doll. The one my dad gave me. I\u2019ve shown it to you a million\ntimes."
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: 3
+    NextMessage: 15
+    MessageText: Ok, you definitely weren't listening to me.
+    Clip: {fileID: 0}
+  - ID: 9
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 11
+    MessageText: Look, I have a picture of it on my phone.
+    Clip: {fileID: 0}
+  - ID: 11
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: 9
+    NextMessage: 12
+    MessageText: I lost it around this time last year, probably in the move.
+    Clip: {fileID: 0}
+  - ID: 13
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 14
+    MessageText: " No idea. I had to have been around 7. Some Christmas market or
+      something? Now stop asking irrelevant questions and help me finish \nwrapping
+      these gifts."
+    Clip: {fileID: 0}
+  - ID: 16
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 17
+    MessageText: Ok, then what was I talking about?
+    Clip: {fileID: 0}
+  - ID: 18
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 5
+    MessageText: 'No. You''re a terrible liar. '
+    Clip: {fileID: 0}
+  - ID: 19
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: 17
+    NextMessage: 5
+    MessageText: 'No. You''re a terrible liar. '
+    Clip: {fileID: 0}
+  - ID: 20
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: 5
+    MessageText: 'No. You''re a terrible liar. '
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 3
+    Choices:
+    - Lost what?
+    - 'I can''t believe it! '
+    NextMessages: 0500000006000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 8
+    Choices:
+    - Uh! Remind me what it looks like again.
+    NextMessages: 09000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 12
+    Choices:
+    - Where'd your dad get it from?
+    NextMessages: 0d000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 14
+    Choices:
+    - 'Hmmmm maybe it''s time I do a little treasure hunt! '
+    NextMessages: 0d000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 15
+    Choices:
+    - 'I am. '
+    NextMessages: 10000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 17
+    Choices:
+    - Your job?
+    - Your sister?
+    - Your secret long-lost brother who moved to the Bahamas to commit tax evasion?
+    NextMessages: 120000001300000014000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  Actions: []
