@@ -35,8 +35,8 @@ MonoBehaviour:
     PreviousMessage: -1
     NextMessage: 8
     MessageText: "I knew you weren\u2019t listening. All you young people and your
-      \nphones and your laptops these days. I\u2019m talking about my little \nThe
-      gingerbread doll. The one my dad gave me. I\u2019ve shown it to you a million\ntimes."
+      phones these days. I\u2019m talking about my little gingerbread doll. The one
+      my dad gave me. I\u2019ve shown it to you a million times."
     Clip: {fileID: 0}
   - ID: 6
     Speaker: 0
@@ -64,9 +64,9 @@ MonoBehaviour:
     SpeakerName: Mother
     PreviousMessage: -1
     NextMessage: 14
-    MessageText: " No idea. I had to have been around 7. Some Christmas market or
-      something? Now stop asking irrelevant questions and help me finish \nwrapping
-      these gifts."
+    MessageText: ' No idea. I had to have been around 7. Some Christmas market or
+      something? Now stop asking irrelevant questions and help me finish wrapping
+      these gifts.'
     Clip: {fileID: 0}
   - ID: 16
     Speaker: 0
