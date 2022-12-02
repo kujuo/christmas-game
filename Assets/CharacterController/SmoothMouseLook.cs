@@ -35,9 +35,8 @@ namespace CharacterControls{
 
         Quaternion originalRotation;
 
-        GameObject someObjectThatsNotAssigned;
         void Update(){
-
+            if (Player.Instance.Pause) return;
             if (Time.timeScale == 0.0f)
                 return;
 

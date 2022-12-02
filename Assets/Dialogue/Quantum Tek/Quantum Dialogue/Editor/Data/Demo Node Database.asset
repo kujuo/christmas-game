@@ -165,8 +165,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1030.0542
-      y: 302
+      x: 1024.0542
+      y: 288
       width: 200
       height: 175
     Inputs:
@@ -258,8 +258,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1289.0542
-      y: 172
+      x: 633.0542
+      y: 454
       width: 200
       height: 175
     Inputs:
@@ -269,8 +269,9 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 2f000000
+        values:
+        - Array: 00000000
     - ID: 1
       Name: Previous
       Type: 0
@@ -442,8 +443,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 914
-      y: 38
+      x: 1067
+      y: 17
       width: 200
       height: 175
     Inputs:
@@ -635,8 +636,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 357
-      y: 433
+      x: 342
+      y: 456
       width: 200
       height: 175
     Inputs:
@@ -665,8 +666,9 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 
-        values: []
+        keys: 07000000
+        values:
+        - Array: 00000000
     - ID: 1
       Name: Next
       Type: 1

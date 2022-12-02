@@ -32,6 +32,10 @@ namespace QuantumTek.QuantumDialogue
         [HideInInspector] public QD_Conversation currentConversation;
         [HideInInspector] public QD_MessageInfo currentMessageInfo;
 
+        public void SetDialogue(QD_Dialogue set)
+        {
+            dialogue = set;
+        }
         /// <summary>
         /// Returns the current message, if it is a message node.
         /// </summary>

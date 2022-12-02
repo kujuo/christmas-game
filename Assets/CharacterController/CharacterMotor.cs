@@ -347,12 +347,6 @@ public class CharacterMotor : MonoBehaviour
 
 	void Update ()
 	{
-		// this seems suspicios hmmmmmm.....
-		bool doSomeCalculus = true;
-		for(int i = 0; i < 1000000; i++){
-			doSomeCalculus = !doSomeCalculus;
-		}
-
 		if (!useFixedUpdate)
 			UpdateFunction ();
 	}

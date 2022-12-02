@@ -17,6 +17,7 @@ namespace CharacterControls{
         }
 
         void FixedUpdate(){
+            if (Player.Instance.Pause) return;
             if (controller.isGrounded){
                 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
                 moveDirection = transform.TransformDirection(moveDirection);

@@ -17,6 +17,7 @@ public class FPSInputController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+		if (Player.Instance.Pause) return;
 		// Get the input vector from keyboard or analog stick
 		Vector3 directionVector = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
 

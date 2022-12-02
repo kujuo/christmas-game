@@ -19,13 +19,11 @@ public class Player : MonoBehaviour
     private LayerMask _focusLayers;
     private LayerMask _craftLayers;
     private GameObject _itemObj;
-    private string _currItem = "";
 
     private Transform _cam;
-    private GameObject _interactionObj;
 
     private bool _showingMenu = false;
-    public bool Talking = false;
+    public bool Pause = false;
 
     /// <summary>
     /// The type of the interaction if some object that the player
@@ -66,7 +64,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (!Talking && Input.GetMouseButtonDown(0)) CheckPlayerFocus();
+        if (!Pause && Input.GetMouseButtonDown(0)) CheckPlayerFocus();
         
     }
 
@@ -84,41 +82,7 @@ public class Player : MonoBehaviour
                 Debug.Log("hello");
                 npc.Interact();
             }
-            //else if (_hit.transform.gameObject.tag == "Tool")
-            //{
-            //    _actionText.Text = "Press (E) to grab " + _hit.transform.gameObject.GetComponent<Tool>().ItemName;
-            //    _interaction = Interaction.GrabTool;
-            //    _interactionObj = _hit.transform.gameObject;
-            //}
-            //else if (_hit.transform.gameObject.tag == "Resource")
-            //{
-            //    Resource resource = _hit.transform.gameObject.GetComponent<Resource>();
-            //    _actionText.Text = "Resource: " + resource.Item.ItemName;
-            //}
-            //else if (_hit.transform.gameObject.tag == "Container")
-            //{
-            //    _actionText.Text = "Press (E) to open Container";
-            //    _interaction = Interaction.OpenContainer;
-            //    _interactionObj = _hit.transform.gameObject;
-            //}
-            //else if (_hit.transform.gameObject.tag == "Interactable")
-            //{
-            //    _actionText.Text = _hit.transform.gameObject.name;
-            //    _interaction = Interaction.None;
-            //    _interactionObj = _hit.transform.gameObject;
-            //}
-            //else
-            //{
-            //    _interactionObj = null;
-            //    _actionText.Text = "";
-            //}
         }
-        //else
-        //{
-        //    _interactionObj = null;
-        //    _actionText.Text = "";
-        //}
-
     }
 
 
@@ -137,73 +101,4 @@ public class Player : MonoBehaviour
         SetMenu();
         _pauseMenu.SetActive(_showingMenu);
     }
-
-    ////When an item is selected from the inventory
-    //public void SelectItem(string name, Inventory.Type type)
-    //{
-    //    Item item = Manager.GetInventoryItem(name);
-    //    _currItem = name;
-    //    _currType = type;
-    //    _inventoryUI.SelectItem(item);
-    //}
-
-    /// <summary>
-    /// Take or give some item
-    /// from the player to another inventory
-    /// used for containers
-    /// </summary>
-    /// <param name="taking"></param>
-    //public void TransferItem(bool taking)
-    //{
-
-    //    if (_currItem == "")
-    //    {
-    //        return;
-    //    }
-
-    //    Inventory otherInventory = _interactionObj.GetComponent<Inventory>();
-
-    //    float amount = _inventoryUI.GetAmount();
-
-    //    if (taking)
-    //    {
-    //        if (_currType == Inventory.Type.Inventory)
-    //            return;
-
-    //        if (amount > otherInventory.Items[_currItem])
-    //            amount = otherInventory.Items[_currItem];
-
-    //        if (_inventory.TryAdd(_currItem, amount))
-    //            otherInventory.TryAdd(_currItem, -amount);
-
-    //        if (!otherInventory.Items.ContainsKey(_currItem))
-    //            _currItem = "";
-    //    }
-    //    else
-    //    {
-    //        if (_currType != Inventory.Type.Inventory)
-    //            return;
-
-    //        if (amount > _inventory.Items[_currItem])
-    //            amount = _inventory.Items[_currItem];
-
-    //        //Drop the Tool if it is being held
-    //        if (_toolHandler.CurrentTool != null)
-    //            if (_toolHandler.CurrentTool.ItemName == _currItem)
-    //                if (amount > _inventory.Items[_currItem] - 1)
-    //                {
-    //                    Destroy(_toolHandler.ToolObject);
-    //                    _toolHandler.CurrentTool = null;
-    //                }
-
-    //        if (otherInventory.TryAdd(_currItem, amount))
-    //            _inventory.TryAdd(_currItem, -amount);
-
-    //        if (!_inventory.Items.ContainsKey(_currItem))
-    //            _currItem = "";
-    //    }
-
-    //    _inventoryUI.Draw(_inventory);
-    //    _inventoryUI.Draw(otherInventory);
-    //}
 }

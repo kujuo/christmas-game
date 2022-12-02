@@ -18,7 +18,10 @@ public class BasicNPC : NPC
 
     public override void Interact()
     {
-        CurrDialogue = Instantiate(Dialogue).GetComponentInChildren<DialogueTracker>();
+        Player.Instance.Pause = true;
+        Time.timeScale = 0.0f;
+        CurrDialogue = Instantiate(DialoguePrefab).GetComponentInChildren<DialogueTracker>();
+        CurrDialogue.SetDialogue(dialogue);
         CurrDialogue.SetConversation(CurrentConversation);
     }
 } 
