@@ -729,8 +729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 966e41e3fb31d42f882c755622188e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentConversation: Before shopkeeper
-  dialogue: {fileID: 11400000, guid: c8dfce9472b8c4bb5aa79e967b861a36, type: 2}
+  CurrentConversation: After shopkeeper
+  dialogue: {fileID: 11400000, guid: 2baa371a1d9344dddac560c7e74ab280, type: 2}
   DialoguePrefab: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
     type: 3}
   CurrDialogue: {fileID: 0}
