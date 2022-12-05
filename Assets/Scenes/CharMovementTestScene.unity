@@ -710,7 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524831121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.24, z: 0}
+  m_LocalPosition: {x: 0, y: -2.78, z: -7.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -729,8 +729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 966e41e3fb31d42f882c755622188e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentConversation: Meeting 2
-  Dialogue: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
+  CurrentConversation: conversation1
+  dialogue: {fileID: 11400000, guid: 62eab6ba0ccde4428ba5814505e63f4a, type: 2}
+  DialoguePrefab: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
     type: 3}
   CurrDialogue: {fileID: 0}
 --- !u!1001 &617201278
@@ -999,7 +1000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseMenu: {fileID: 0}
   _raycaster: {fileID: 632988459}
-  Talking: 0
+  Pause: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
