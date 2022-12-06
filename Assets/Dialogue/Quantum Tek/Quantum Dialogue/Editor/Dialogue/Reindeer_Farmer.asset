@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Reindeer_Farmer
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 1
+    Name: Before shopkeeper
+    FirstMessage: 2
+  Speakers:
+  - ID: 0
+    Name: Reindeer farmer
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 2
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: Hey there!
+    Clip: {fileID: 0}
+  - ID: 4
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 3
+    NextMessage: 5
+    MessageText: Sven. Like in that one Disney movie. Don't call him that though,
+      he gets fussy because he expects you to break into songs after he hears his
+      name.
+    Clip: {fileID: 0}
+  - ID: 5
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 4
+    NextMessage: 6
+    MessageText: 'He''s hungry right now too, so he''ll be very aggressive about
+      it. '
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 5
+    NextMessage: 7
+    MessageText: And don't ask me what my name is.
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: 'Well....
+
+      It''s not not Kristoff.'
+    Clip: {fileID: 0}
+  - ID: 9
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: 10
+    MessageText: Not too bad. The worst part is when Sven here sees carrots. He's
+      obsessed with them. I think he'd marry a carrot if he could.
+    Clip: {fileID: 0}
+  - ID: 12
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: 'Yeah, he kind of is. '
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 3
+    Choices:
+    - See you later.
+    - What's the name of your reindeer?
+    - What's it like raising a reindeer?
+    NextMessages: 020000000400000009000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 7
+    Choices:
+    - Is it Kristoff?
+    NextMessages: 08000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 10
+    Choices:
+    - He's kind of obsessed
+    NextMessages: 0c000000
+    ChoiceActions:
+    - {fileID: 0}
+  Actions: []

@@ -730,7 +730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentConversation: After shopkeeper
-  dialogue: {fileID: 11400000, guid: 2baa371a1d9344dddac560c7e74ab280, type: 2}
+  dialogue: {fileID: 11400000, guid: e725002a10918458fad1dcc287d2af6c, type: 2}
   DialoguePrefab: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
     type: 3}
   CurrDialogue: {fileID: 0}
