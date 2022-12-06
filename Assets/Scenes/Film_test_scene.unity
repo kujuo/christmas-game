@@ -729,8 +729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 966e41e3fb31d42f882c755622188e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentConversation: After shopkeeper
-  dialogue: {fileID: 11400000, guid: e725002a10918458fad1dcc287d2af6c, type: 2}
+  CurrentConversation: Reindeer Lovequest
+  dialogue: {fileID: 11400000, guid: 435a2dcf6e0c044828dbdd18054a3ae8, type: 2}
   DialoguePrefab: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
     type: 3}
   CurrDialogue: {fileID: 0}
