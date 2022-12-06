@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     private LayerMask _focusLayers;
     private LayerMask _craftLayers;
     private GameObject _itemObj;
+    private Renderer LastObj = null;
+    private Color LastObjColor;
 
     private Transform _cam;
 
@@ -37,6 +39,8 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
         if (Instance != null && Instance != this)
         {
             Destroy(this);
@@ -64,8 +68,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (!Pause && Input.GetMouseButtonDown(0)) CheckPlayerFocus();
-        
+        if (!Pause) CheckPlayerFocus();
+        if (!Pause && Input.GetMouseButtonDown(0)) PlayerInteract();
     }
 
     /// <summary>
@@ -78,13 +82,41 @@ public class Player : MonoBehaviour
         {
             if (_hit.transform.gameObject.tag == "NPC")
             {
-                NPC npc = _hit.transform.gameObject.GetComponent<NPC>();
-                Debug.Log("hello");
-                npc.Interact();
+                if (LastObj == null)
+                {
+                    LastObj = _hit.transform.gameObject.GetComponent<Renderer>();
+                    LastObjColor = LastObj.material.color;
+                    LastObj.material.color = LastObjColor * Color.red;
+                }
             }
+            else if (LastObj != null)
+            {
+                LastObj.material.color = LastObjColor;
+                LastObj = null;
+            }
+        }
+        else if (LastObj != null)
+        {
+            LastObj.material.color = LastObjColor;
+            LastObj = null;
         }
     }
 
+    void PlayerInteract()
+    {
+        if (UnityEngine.Physics.Raycast(_cam.position, _cam.forward, out _hit, 5, _focusLayers.value))
+        {
+            if (_hit.transform.gameObject.tag == "NPC")
+            {
+                NPC npc = _hit.transform.gameObject.GetComponent<NPC>();
+                Color startcolor = _hit.transform.gameObject.GetComponent<Renderer>().material.color;
+                _hit.transform.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                Cursor.lockState = CursorLockMode.Confined;
+                npc.Interact();
+            }
+        }
+
+    }
 
     void SetMenu()
     {
