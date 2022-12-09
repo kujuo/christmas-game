@@ -150,7 +150,12 @@ public class DialogueTracker : MonoBehaviour
         if (ended)
             return;
         QD_Choice c = handler.GetChoice();
-        Debug.Log(c.Choices[choice]);
+        GameObject action = c.ChoiceActions[choice];
+        if (action != null)
+        {
+            action.GetComponent<Action>().DoAction();
+        }
+        else Debug.Log(action);
         Next(choice);
     }
 }
