@@ -1,0 +1,23 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.151580502)
+
+newmtl Wine
+kd 1 1 1
+ka 0 0 0
+ks 0.19 0.19 0.19
+ke 0 0 0
+d 1
+Ns 80
+illum 2
+map_kd auvBG.tga
+
+newmtl Winglass_auv
+kd 1 1 1
+ka 0 0 0
+ks 0.19 0.19 0.19
+ke 0 0 0
+d 1
+Ns 80
+illum 2
+map_kd auvBG.tga
+
