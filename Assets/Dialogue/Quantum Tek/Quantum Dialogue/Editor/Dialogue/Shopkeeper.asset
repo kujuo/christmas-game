@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Shopkeeper
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 1
+    Name: First encounter
+    FirstMessage: 2
+  Speakers:
+  - ID: 0
+    Name: Shopkeeper
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 2
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: What do you want?
+    Clip: {fileID: 0}
+  - ID: 4
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 5
+    MessageText: No. Go away.
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 5
+    NextMessage: 8
+    MessageText: So? Read the sign.
+    Clip: {fileID: 0}
+  - ID: 9
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 10
+    MessageText: Not this. Not for you. It's a-- it's a shop decoration. I need it
+      to keep my shop looking nice.
+    Clip: {fileID: 0}
+  - ID: 11
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 12
+    MessageText: So what if it is? Decoration, sentimental value, whatever. You just
+      can't have it?
+    Clip: {fileID: 0}
+  - ID: 13
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Your -what? No. If my - no. She can't have it. Go away. Don't talk
+      to me again.
+    Clip: {fileID: 0}
+  - ID: 14
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 10
+    NextMessage: 15
+    MessageText: We all want thngs we can't have , kid.
+    Clip: {fileID: 0}
+  - ID: 15
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 14
+    NextMessage: 16
+    MessageText: ...
+    Clip: {fileID: 0}
+  - ID: 17
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: I told you, go away. Unless you have something better to give me.
+      And you're not going to.
+    Clip: {fileID: 0}
+  - ID: 19
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Well, this one wasn't made by me so it's not for sale. Fuck off.
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 3
+    Choices:
+    - That doll hanging there?
+    NextMessages: 04000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 5
+    Choices:
+    - Don't you sell stuff?
+    - That was rude.
+    NextMessages: 0900000006000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 8
+    Choices:
+    - It says "Handmade Toys"
+    NextMessages: 13000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 10
+    Choices:
+    - That sounds like an excuse.
+    - I want it for my mom.
+    NextMessages: 0b0000000e000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 12
+    Choices:
+    - Can my mom have it?
+    NextMessages: 0d000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 16
+    Choices:
+    - Are you crying?
+    NextMessages: 11000000
+    ChoiceActions:
+    - {fileID: 0}
+  Actions: []

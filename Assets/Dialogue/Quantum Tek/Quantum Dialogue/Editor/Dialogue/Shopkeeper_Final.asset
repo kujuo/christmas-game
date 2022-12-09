@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Shopkeeper_Final
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 1
+    Name: Shopkeeper final
+    FirstMessage: 2
+  Speakers:
+  - ID: 0
+    Name: Shopkeeper
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 2
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 4
+    MessageText: You again. Are you going to buy something this time?
+    Clip: {fileID: 0}
+  - ID: 5
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 7
+    MessageText: Wh-how do you know about her?
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 9
+    MessageText: I.......
+    Clip: {fileID: 0}
+  - ID: 10
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 11
+    MessageText: She found that doll in this very market last year, in the snow.
+      Carried it around everywhere. Broke the arm off, but stitched it back together
+      for her. It was the only thing I had of her when she...
+    Clip: {fileID: 0}
+  - ID: 11
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 10
+    NextMessage: 13
+    MessageText: I didn't know she still had these unsent letters.
+    Clip: {fileID: 0}
+  - ID: 14
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 15
+    MessageText: And my daughter found it in the snow. Here. Have it. I'd rather
+      be loved than be held by a grumpy old man like me.
+    Clip: {fileID: 0}
+  - ID: 15
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 14
+    NextMessage: 17
+    MessageText: And I have something else of hers now. Take it, take it. For your
+      mom.
+    Clip: {fileID: 0}
+  - ID: 18
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 17
+    NextMessage: 19
+    MessageText: Oh, what the heck. It's Christmas. I'll buy him a drink, even. Merry
+      Christmas!
+    Clip: {fileID: 0}
+  - ID: 20
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 21
+    MessageText: She better. I mean, uh, I hope she does too. Old habits die hard,
+      huh? Can't be a grumpy old man anymore.
+    Clip: {fileID: 0}
+  - ID: 22
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 23
+    MessageText: Does that mean I have to go around being nice to everyone now?
+    Clip: {fileID: 0}
+  - ID: 24
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 23
+    NextMessage: 26
+    MessageText: Guess I should start with the postman, huh. I chased him around
+      once with a slipper. Not my finest hour.
+    Clip: {fileID: 0}
+  - ID: 27
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 29
+    MessageText: New year, new me. You too, kid. Never too late to be a new you.
+    Clip: {fileID: 0}
+  - ID: 30
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 32
+    MessageText: 'It''s weird, you know. Reading this. Giving you the doll. I''ve
+      had it for so long I almost forgot what it meant for me. You brought it all
+      back. Thank you. '
+    Clip: {fileID: 0}
+  - ID: 33
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: 35
+    MessageText: Not a bad Christmas present, for me or your mom.
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 4
+    Choices:
+    - I'm sorry about your daughter.
+    NextMessages: 05000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 7
+    Choices:
+    - Here. Take this.
+    NextMessages: 08000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 9
+    Choices:
+    - Are you okay?
+    NextMessages: 0a000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 13
+    Choices:
+    - My mom lost her doll here last year.
+    NextMessages: 0e000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 17
+    Choices:
+    - She'll love it.
+    - You should really apologize to the postman
+    NextMessages: 1400000012000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 19
+    Choices:
+    - Merry Christmas!
+    - And a happy new year!
+    NextMessages: 12000000ffffffff
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 21
+    Choices:
+    - Guess not.
+    NextMessages: 16000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 23
+    Choices:
+    - Guess so.
+    - Yep.
+    NextMessages: 1e00000018000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 26
+    Choices:
+    - New year, new you?
+    NextMessages: 1b000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 29
+    Choices:
+    - And I'll start by proving I do listen to my mom
+    NextMessages: 1b000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 32
+    Choices:
+    - Thank you too.
+    NextMessages: 21000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 35
+    Choices:
+    - Not at all.
+    NextMessages: 21000000
+    ChoiceActions:
+    - {fileID: 0}
+  Actions: []
