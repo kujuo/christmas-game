@@ -128,6 +128,13 @@ MonoBehaviour:
     NextMessage: 35
     MessageText: Not a bad Christmas present, for me or your mom.
     Clip: {fileID: 0}
+  - ID: 36
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: yay.
+    Clip: {fileID: 0}
   Choices:
   - ID: 4
     Choices:
@@ -204,7 +211,7 @@ MonoBehaviour:
   - ID: 35
     Choices:
     - Not at all.
-    NextMessages: 21000000
+    NextMessages: 24000000
     ChoiceActions:
     - {fileID: 0}
   Actions: []

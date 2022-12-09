@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversations:
   - ID: 1
-    Name: Opening Cutscene
+    Name: Opening cutscene
     FirstMessage: 2
   Speakers:
   - ID: 0
@@ -96,6 +96,13 @@ MonoBehaviour:
     NextMessage: 5
     MessageText: 'No. You''re a terrible liar. '
     Clip: {fileID: 0}
+  - ID: 22
+    Speaker: 0
+    SpeakerName: Mother
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Huh, what are you up to this time....
+    Clip: {fileID: 0}
   Choices:
   - ID: 3
     Choices:
@@ -120,7 +127,7 @@ MonoBehaviour:
   - ID: 14
     Choices:
     - 'Hmmmm maybe it''s time I do a little treasure hunt! '
-    NextMessages: 0d000000
+    NextMessages: 16000000
     ChoiceActions:
     - {fileID: 0}
   - ID: 15

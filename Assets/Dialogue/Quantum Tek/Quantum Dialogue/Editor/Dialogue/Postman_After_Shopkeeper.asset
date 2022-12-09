@@ -41,7 +41,9 @@ MonoBehaviour:
     SpeakerName: Postman
     PreviousMessage: 4
     NextMessage: -1
-    MessageText: You know Kristoff, the reindeer guy? I saw
+    MessageText: You know Kristoff, the reindeer guy? I saw the shopkeeper yelling
+      at him yesterday. Totally undeserved, because Kristoff seems like such a nice
+      guy. Don't tell him I said that though. It's, uh. Embarassing.
     Clip: {fileID: 0}
   - ID: 6
     Speaker: 0

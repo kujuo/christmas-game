@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Little_Girl_After_Shopkeeper
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 2
+    Name: After shopkeeper
+    FirstMessage: 3
+  - ID: 18
+    Name: After Snowman
+    FirstMessage: 19
+  Speakers:
+  - ID: 0
+    Name: Little Girl
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 3
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: -1
+    NextMessage: 5
+    MessageText: La la la!
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: 5
+    NextMessage: -1
+    MessageText: 'Laaaa diiiii daaaaa. I''m building a snowman. Mama gave me a biiiiiig
+      bag of carrots and a biggg bag of coal so I can build as many as I want!! '
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: -1
+    NextMessage: 10
+    MessageText: 'No, no. He has a different daughter. '
+    Clip: {fileID: 0}
+  - ID: 11
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: -1
+    NextMessage: 12
+    MessageText: 'Yep yep! She had a cute scarf her papa made for her. And she had
+      a very cuteeee doll she NEVER let me play with!! We used to build snowmen.
+      Now, no one build snowmen with me. '
+    Clip: {fileID: 0}
+  - ID: 14
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: -1
+    NextMessage: 16
+    MessageText: 'Yay! Okay okay so you take the carrots for the pointy nose and
+      the coles for the eyes and I... woo hoo '
+    Clip: {fileID: 0}
+  - ID: 19
+    Speaker: 0
+    SpeakerName: Little Girl
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: 'I''m naming him after you! '
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 5
+    Choices:
+    - La La Laaaaaa!
+    - What are you doing?
+    - Is the shopkeeper your dad?
+    NextMessages: 030000000600000008000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 10
+    Choices:
+    - Did you know her?
+    NextMessages: 0b000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 12
+    Choices:
+    - I can help you build snowmen.
+    NextMessages: 0e000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 16
+    Choices:
+    - Here we go!
+    NextMessages: 0e000000
+    ChoiceActions:
+    - {fileID: 0}
+  Actions: []
