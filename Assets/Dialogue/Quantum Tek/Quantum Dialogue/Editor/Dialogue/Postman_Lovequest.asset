@@ -33,7 +33,7 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: -1
-    NextMessage: 5
+    NextMessage: 11
     MessageText: Haha. He told me you were the one to get his reindeer asleep. It's
       weird. I haven't felt so good in a long while.
     Clip: {fileID: 0}
@@ -57,7 +57,7 @@ MonoBehaviour:
   - ID: 8
     Speaker: 0
     SpeakerName: Postman
-    PreviousMessage: -1
+    PreviousMessage: 3
     NextMessage: 9
     MessageText: 'Good rom-com moment :) Oh god, it''s way to early to say that.
       Uh, he told me you were looking into the shopkeeper stuff so I figured I was
@@ -76,14 +76,14 @@ MonoBehaviour:
     Choices:
     - All good things, I hope?
     - Bad rom-com moment?
-    NextMessages: 04000000ffffffff
+    NextMessages: 0400000008000000
     ChoiceActions:
     - {fileID: 0}
     - {fileID: 0}
-  - ID: 5
+  - ID: 11
     Choices:
     - That's good to hear!
-    NextMessages: 04000000
+    NextMessages: 06000000
     ChoiceActions:
     - {fileID: 0}
   Actions: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Postman_After_Shopkeeper
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: 2baa371a1d9344dddac560c7e74ab280, type: 2}
-  NextID: 25
+  NextID: 26
   Nodes:
   - ID: 0
     Type: 2
@@ -99,8 +99,9 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 0400000006000000
+        keys: 040000000600000019000000
         values:
+        - Array: 00000000
         - Array: 00000000
         - Array: 00000000
     - ID: 1
@@ -187,8 +188,9 @@ MonoBehaviour:
       Y: 65
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 19000000
+        values:
+        - Array: 01000000
     - ID: 1
       Name: Choice 2
       Type: 1
@@ -1695,6 +1697,100 @@ MonoBehaviour:
       InputID: 5
       OutputType: 3
       OutputID: 1
+  - ID: 25
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 1008
+      y: 71
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 02000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 03000000
+        values:
+        - Array: 00000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
   SpeakerNodes:
   - ID: 0
     Type: 2
@@ -2226,8 +2322,8 @@ MonoBehaviour:
       PreviousMessage: 6
       NextMessage: 8
       MessageText: 'One day, I stopped delivering him his mail because he just bursted
-        into tears and kept crying non-stop about his daughter or something. I had
-        my limits to, you know? That guy needs therapy. '
+        into tears and kept crying non-stop about his daughter or something. He really
+        needs therapy. '
       Clip: {fileID: 0}
   - ID: 9
     Type: 3
@@ -3141,6 +3237,106 @@ MonoBehaviour:
       NextMessage: -1
       MessageText: I know, right?
       Clip: {fileID: 0}
+  - ID: 25
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 25
+      Speaker: 0
+      SpeakerName: Postman
+      PreviousMessage: -1
+      NextMessage: -1
+      MessageText: Then, have a good day!
+      Clip: {fileID: 0}
   ConversationNodes:
   - ID: 1
     Type: 1
@@ -3213,7 +3409,7 @@ MonoBehaviour:
       - It's nothing.
       - The shopkeeper was mean to me
       - I heard the shopkeeper said something nasty to you.
-      NextMessages: 020000000400000006000000
+      NextMessages: 190000000400000006000000
       ChoiceActions:
       - {fileID: 0}
       - {fileID: 0}

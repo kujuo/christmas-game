@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Postman_Lovequest
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: 693d24f05ee2d4494935416f4eb4e75c, type: 2}
-  NextID: 10
+  NextID: 12
   Nodes:
   - ID: 0
     Type: 2
@@ -196,8 +196,9 @@ MonoBehaviour:
       Y: 135
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 08000000
+        values:
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 1
@@ -255,7 +256,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 05000000
+        keys: 0b000000
         values:
         - Array: 00000000
     AllowedInputs:
@@ -308,43 +309,6 @@ MonoBehaviour:
       InputID: 5
       OutputType: 3
       OutputID: 1
-  - ID: 5
-    Type: 4
-    Window:
-      serializedVersion: 2
-      x: 1005.89856
-      y: 338
-      width: 300
-      height: 135
-    Inputs:
-    - ID: 0
-      Name: Previous Messages
-      Type: 0
-      Y: 7.5
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 04000000
-        values:
-        - Array: 01000000
-    Outputs:
-    - ID: 0
-      Name: Choice 1
-      Type: 1
-      Y: 65
-      AllowMultipleConnections: 0
-      Connections:
-        keys: 
-        values: []
-    AllowedInputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
-    AllowedOutputs:
-    - InputType: 3
-      InputID: 1
-      OutputType: 4
-      OutputID: 0
   - ID: 6
     Type: 3
     Window:
@@ -369,8 +333,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 0b000000
+        values:
+        - Array: 00000000
     Outputs:
     - ID: 0
       Name: Speaker
@@ -558,8 +523,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 03000000
+        values:
+        - Array: 01000000
     Outputs:
     - ID: 0
       Name: Speaker
@@ -723,6 +689,44 @@ MonoBehaviour:
       InputID: 5
       OutputType: 3
       OutputID: 1
+  - ID: 11
+    Type: 4
+    Window:
+      serializedVersion: 2
+      x: 1005
+      y: 341
+      width: 300
+      height: 135
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 04000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Choice 1
+      Type: 1
+      Y: 65
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 06000000
+        values:
+        - Array: 01000000
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
   SpeakerNodes:
   - ID: 0
     Type: 2
@@ -951,7 +955,7 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Postman
       PreviousMessage: -1
-      NextMessage: 5
+      NextMessage: 11
       MessageText: Haha. He told me you were the one to get his reindeer asleep.
         It's weird. I haven't felt so good in a long while.
       Clip: {fileID: 0}
@@ -1254,7 +1258,7 @@ MonoBehaviour:
       ID: 8
       Speaker: 0
       SpeakerName: Postman
-      PreviousMessage: -1
+      PreviousMessage: 3
       NextMessage: 9
       MessageText: 'Good rom-com moment :) Oh god, it''s way to early to say that.
         Uh, he told me you were looking into the shopkeeper stuff so I figured I
@@ -1428,11 +1432,11 @@ MonoBehaviour:
       Choices:
       - All good things, I hope?
       - Bad rom-com moment?
-      NextMessages: 04000000ffffffff
+      NextMessages: 0400000008000000
       ChoiceActions:
       - {fileID: 0}
       - {fileID: 0}
-  - ID: 5
+  - ID: 11
     Type: 2
     Window:
       serializedVersion: 2
@@ -1461,9 +1465,9 @@ MonoBehaviour:
       OutputType: 4
       OutputID: 0
     Data:
-      ID: 5
+      ID: 11
       Choices:
       - That's good to hear!
-      NextMessages: 04000000
+      NextMessages: 06000000
       ChoiceActions:
       - {fileID: 0}

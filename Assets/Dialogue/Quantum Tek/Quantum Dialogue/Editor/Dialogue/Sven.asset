@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Sven
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 2
+    Name: Sven got carrots
+    FirstMessage: 4
+  Speakers:
+  - ID: 0
+    Name: Reindeer farmer
+    Icon: {fileID: 0}
+  - ID: 5
+    Name: Sven
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 4
+    Speaker: 5
+    SpeakerName: Sven
+    PreviousMessage: -1
+    NextMessage: 3
+    MessageText: 'Something smells gooddddd. '
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 5
+    SpeakerName: Sven
+    PreviousMessage: -1
+    NextMessage: 8
+    MessageText: 'Is that.... carrotssss??!! and shoes....and youuuuuu?!?
+
+      Looks
+      like a yummy meal.'
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 6
+    NextMessage: 9
+    MessageText: Woah! Sven really likes you.
+    Clip: {fileID: 0}
+  - ID: 9
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 8
+    NextMessage: 11
+    MessageText: Oh, is he...asleep? Like, he won't bite me if I try to leave? Because
+      he's asleep? Actually asleep?
+    Clip: {fileID: 0}
+  - ID: 12
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: 13
+    MessageText: Am I....free??
+    Clip: {fileID: 0}
+  - ID: 14
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: 15
+    MessageText: 'I don''t know what to do with myself. It''s been so long. Years.
+      Decades. My whole life. '
+    Clip: {fileID: 0}
+  - ID: 16
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 15
+    NextMessage: 17
+    MessageText: Wow! I've never even celebrated Christmas before. This is so new.
+      Sven, stay put. The world, wait for me!
+    Clip: {fileID: 0}
+  - ID: 18
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: 19
+    MessageText: You're so right. Okay, okay. Sven, don't wake up.
+    Clip: {fileID: 0}
+  - ID: 20
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Thanks!
+    Clip: {fileID: 0}
+  - ID: 21
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Thanks!
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 3
+    Choices:
+    - I brought you a gift!
+    NextMessages: 06000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 11
+    Choices:
+    - I think so.
+    NextMessages: 0c000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 13
+    Choices:
+    - As long as he's asleep, I guess
+    NextMessages: 0e000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 15
+    Choices:
+    - You said you wanted to talk to the postman?
+    - The Christmas market is free for you to explore
+    NextMessages: 1200000010000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  - ID: 17
+    Choices:
+    - Good luck!
+    NextMessages: 15000000
+    ChoiceActions:
+    - {fileID: 0}
+  - ID: 19
+    Choices:
+    - Good luck.
+    NextMessages: 14000000
+    ChoiceActions:
+    - {fileID: 0}
+  Actions: []

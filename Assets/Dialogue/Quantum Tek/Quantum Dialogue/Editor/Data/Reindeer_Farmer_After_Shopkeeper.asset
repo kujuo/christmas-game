@@ -572,8 +572,9 @@ MonoBehaviour:
       Y: 135
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 0c000000
+        values:
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 1
@@ -898,8 +899,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 08000000
+        values:
+        - Array: 01000000
     Outputs:
     - ID: 0
       Name: Speaker
@@ -1801,7 +1803,7 @@ MonoBehaviour:
       ID: 12
       Speaker: 1
       SpeakerName: Reindeer farmer
-      PreviousMessage: -1
+      PreviousMessage: 8
       NextMessage: -1
       MessageText: 'You know it. I think I haven''t left Sven''s side in four months.
         I don''t think I know what fresh air smells like anymore. Oh, I can''t even
@@ -1949,8 +1951,8 @@ MonoBehaviour:
       ID: 8
       Choices:
       - You seem kind of lonely.
-      - Sounds rough.
-      NextMessages: 09000000ffffffff
+      - Sounds rough
+      NextMessages: 090000000c000000
       ChoiceActions:
       - {fileID: 0}
       - {fileID: 0}

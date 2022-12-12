@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversations:
   - ID: 2
-    Name: Reindeer Lovequest
+    Name: Reindeer lovequest
     FirstMessage: 3
   Speakers:
   - ID: 0

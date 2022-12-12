@@ -63,7 +63,7 @@ MonoBehaviour:
     SpeakerName: Shopkeeper
     PreviousMessage: -1
     NextMessage: 15
-    MessageText: And my daughter found it in the snow. Here. Have it. I'd rather
+    MessageText: And my daughter found it in the snow. Here. Have it. It'd rather
       be loved than be held by a grumpy old man like me.
     Clip: {fileID: 0}
   - ID: 15
@@ -78,9 +78,8 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Shopkeeper
     PreviousMessage: 17
-    NextMessage: 19
-    MessageText: Oh, what the heck. It's Christmas. I'll buy him a drink, even. Merry
-      Christmas!
+    NextMessage: 38
+    MessageText: 'Oh, what the heck. It''s Christmas. I''ll buy him a drink, even. '
     Clip: {fileID: 0}
   - ID: 20
     Speaker: 0
@@ -133,7 +132,21 @@ MonoBehaviour:
     SpeakerName: Shopkeeper
     PreviousMessage: -1
     NextMessage: -1
-    MessageText: yay.
+    MessageText: Merry Christmas!
+    Clip: {fileID: 0}
+  - ID: 37
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: Good. Merry Christmas!
+    Clip: {fileID: 0}
+  - ID: 38
+    Speaker: 0
+    SpeakerName: Shopkeeper
+    PreviousMessage: 18
+    NextMessage: -1
+    MessageText: Merry Christmas!
     Clip: {fileID: 0}
   Choices:
   - ID: 4
@@ -168,14 +181,6 @@ MonoBehaviour:
     ChoiceActions:
     - {fileID: 0}
     - {fileID: 0}
-  - ID: 19
-    Choices:
-    - Merry Christmas!
-    - And a happy new year!
-    NextMessages: 12000000ffffffff
-    ChoiceActions:
-    - {fileID: 0}
-    - {fileID: 0}
   - ID: 21
     Choices:
     - Guess not.
@@ -198,8 +203,8 @@ MonoBehaviour:
     - {fileID: 0}
   - ID: 29
     Choices:
-    - And I'll start by proving I do listen to my mom
-    NextMessages: 1b000000
+    - And I'll start by proving I do listen to my mom.
+    NextMessages: 25000000
     ChoiceActions:
     - {fileID: 0}
   - ID: 32
