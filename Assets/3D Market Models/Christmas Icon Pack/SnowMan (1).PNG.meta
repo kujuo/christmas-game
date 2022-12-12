@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7680d3ca053840a7989b80c655c7e55
+guid: d36b7b3dccc27416eb967615ee5cca31
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 5, y: 7, z: 5, w: 7}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_0
+      name: SnowMan (1)_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 26
-        width: 24
-        height: 24
+        x: 1
+        y: 3
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,113 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f40a31db335554afa80ff9e21f60373b
-      internalID: -185810237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 8
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f50326599a2446db8fc8a19cd3b9676
-      internalID: -70331899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 27
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5077673c4a788464db674b0bcae83c2c
-      internalID: -488127296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 1
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3f342b2ab2844a40a96219a2520ed4a
-      internalID: 1973945727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 5
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1b3fba2a2adf45449af012c360b74a9
-      internalID: -1282120143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChristmasIcon_StandAlone_SpriteSheet_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 49
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f078471a177b44dc9738b05ae222dfd
-      internalID: -847955191
+      spriteID: 6954c24917bea4beb92d74de9590b07c
+      internalID: -1612769919
       vertices: []
       indices: 
       edges: []
@@ -244,20 +139,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1e167e852d1174f32a6656f5d85b7e10
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ChristmasIcon_StandAlone_SpriteSheet_2: -488127296
-      ChristmasIcon_StandAlone_SpriteSheet_1: -70331899
-      ChristmasIcon_StandAlone_SpriteSheet_0: -185810237
-      ChristmasIcon_StandAlone_SpriteSheet_5: -847955191
-      ChristmasIcon_StandAlone_SpriteSheet_4: -1282120143
-      ChristmasIcon_StandAlone_SpriteSheet_3: 1973945727
+      SnowMan (1)_0: -1612769919
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
