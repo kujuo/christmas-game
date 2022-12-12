@@ -611,7 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9073968383300320640}
   m_Layer: 0
-  m_Name: Gift_PopUp
+  m_Name: Carrot_UI_Real
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
