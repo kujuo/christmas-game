@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: Postman_Generic
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 0
+    Name: Generic
+    FirstMessage: 3
+  Speakers:
+  - ID: 1
+    Name: Postman
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 3
+    Speaker: 1
+    SpeakerName: Postman
+    PreviousMessage: -1
+    NextMessage: 5
+    MessageText: Woah! It's you again.
+    Clip: {fileID: 0}
+  - ID: 6
+    Speaker: 1
+    SpeakerName: Postman
+    PreviousMessage: 5
+    NextMessage: 7
+    MessageText: 'Oh poor kid! Yeah uh, he''s mean. Let''s not talk about this. I
+      swear he hears everything and then he''s out to get you forever. '
+    Clip: {fileID: 0}
+  - ID: 7
+    Speaker: 1
+    SpeakerName: Postman
+    PreviousMessage: 6
+    NextMessage: -1
+    MessageText: ou know Kristoff, the reindeer guy? I saw the shopkeeper yelling
+      at him yesterday. Totally undeserved, because Kristoff seems like such a nice
+      guy. Don't tell him I said that though. It's, uh. Embarrassing.
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 1
+    SpeakerName: Postman
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: See you later.
+    Clip: {fileID: 0}
+  Choices:
+  - ID: 5
+    Choices:
+    - Don't worry about it.
+    - The shopkeeper was mean to me.
+    NextMessages: 0800000006000000
+    ChoiceActions:
+    - {fileID: 0}
+    - {fileID: 0}
+  Actions: []

@@ -115,7 +115,7 @@ MonoBehaviour:
     - It says "Handmade Toys"
     NextMessages: 13000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4369659396361056903, guid: edab3536b1359469abffbe2c415cd392, type: 3}
   - ID: 10
     Choices:
     - That sounds like an excuse.
@@ -129,11 +129,11 @@ MonoBehaviour:
     - Can my mom have it?
     NextMessages: 0d000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4369659396361056903, guid: edab3536b1359469abffbe2c415cd392, type: 3}
   - ID: 16
     Choices:
     - Are you crying?
     NextMessages: 11000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4369659396361056903, guid: edab3536b1359469abffbe2c415cd392, type: 3}
   Actions: []

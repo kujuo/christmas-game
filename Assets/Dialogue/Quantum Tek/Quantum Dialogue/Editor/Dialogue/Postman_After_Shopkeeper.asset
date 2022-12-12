@@ -43,7 +43,7 @@ MonoBehaviour:
     NextMessage: -1
     MessageText: You know Kristoff, the reindeer guy? I saw the shopkeeper yelling
       at him yesterday. Totally undeserved, because Kristoff seems like such a nice
-      guy. Don't tell him I said that though. It's, uh. Embarassing.
+      guy. Don't tell him I said that though. It's, uh. Embarrassing.
     Clip: {fileID: 0}
   - ID: 6
     Speaker: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     PreviousMessage: -1
     NextMessage: 7
     MessageText: Oh my god, yes. Everytime I go round his house he starts yelling
-      and throwing things at me
+      and throwing things at me.
     Clip: {fileID: 0}
   - ID: 7
     Speaker: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     SpeakerName: Postman
     PreviousMessage: -1
     NextMessage: 11
-    MessageText: My child are you asking me to commit mail fraud? Are you implying
+    MessageText: My child, are you asking me to commit mail fraud? Are you implying
       I look through his mail?
     Clip: {fileID: 0}
   - ID: 13
@@ -148,7 +148,7 @@ MonoBehaviour:
   - ID: 3
     Choices:
     - It's nothing.
-    - The shopkeeper was mean to me
+    - The shopkeeper was mean to me.
     - I heard the shopkeeper said something nasty to you.
     NextMessages: 190000000400000006000000
     ChoiceActions:
@@ -162,12 +162,12 @@ MonoBehaviour:
     - I can't believe I have to get him a therapist to get my mom her doll.
     NextMessages: 090000000e0000000f000000
     ChoiceActions:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 7317413628360043918, guid: 0da257cdc962e42359fc7c55052d815d, type: 3}
+    - {fileID: 7317413628360043918, guid: 0da257cdc962e42359fc7c55052d815d, type: 3}
+    - {fileID: 7317413628360043918, guid: 0da257cdc962e42359fc7c55052d815d, type: 3}
   - ID: 11
     Choices:
-    - 'Oh not at all! Of course, not. '
+    - 'Oh not at all! Of course not. '
     NextMessages: 0d000000
     ChoiceActions:
     - {fileID: 0}
