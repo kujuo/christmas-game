@@ -64,7 +64,7 @@ MonoBehaviour:
     SpeakerName: Postman
     PreviousMessage: -1
     NextMessage: 15
-    MessageText: 'O-oh I just got off work that''s why.Neither snow nor rain nor
+    MessageText: 'O-oh, I just got off work, that''s why.Neither snow nor rain nor
       heat nor gloom of the night, as they say, but the snow truck stops working
       when it snows more than shin-high, so now I''m here, with loads of work adrenaline
       in me. '
@@ -74,7 +74,7 @@ MonoBehaviour:
     SpeakerName: Postman
     PreviousMessage: -1
     NextMessage: -1
-    MessageText: I just hope the snow plow comes before then
+    MessageText: I just hope the snow plow comes before then.
     Clip: {fileID: 0}
   - ID: 17
     Speaker: 0
@@ -99,11 +99,11 @@ MonoBehaviour:
     - Does that happen a lot?
     NextMessages: 0c000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4921140589464824843, guid: 30eb134d522e34d1dae4b995cb70cf10, type: 3}
   - ID: 15
     Choices:
     - How are you getting home?
     NextMessages: 10000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4921140589464824843, guid: 30eb134d522e34d1dae4b995cb70cf10, type: 3}
   Actions: []

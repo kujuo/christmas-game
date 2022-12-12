@@ -99,11 +99,11 @@ MonoBehaviour:
     - Is it Kristoff?
     NextMessages: 08000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 7723506416605859819, guid: 2f77a08bdcd13456e8ae5f9a909bce3a, type: 3}
   - ID: 10
     Choices:
-    - He's kind of obsessed
+    - He's kind of obsessed.
     NextMessages: 0c000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 7723506416605859819, guid: 2f77a08bdcd13456e8ae5f9a909bce3a, type: 3}
   Actions: []

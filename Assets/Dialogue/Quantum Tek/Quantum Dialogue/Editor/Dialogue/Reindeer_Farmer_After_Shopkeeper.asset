@@ -100,7 +100,7 @@ MonoBehaviour:
     - The shopkeeper seems like the type to do that.
     NextMessages: 07000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 4420425898534676127, guid: fb97622e65b7f462fb3b021146cd2538, type: 3}
   - ID: 8
     Choices:
     - You seem kind of lonely.
