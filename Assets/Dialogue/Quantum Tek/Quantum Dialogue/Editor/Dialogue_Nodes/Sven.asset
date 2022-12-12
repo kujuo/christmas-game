@@ -2249,7 +2249,7 @@ MonoBehaviour:
       SpeakerName: Reindeer farmer
       PreviousMessage: -1
       NextMessage: -1
-      MessageText: Thannks!
+      MessageText: Thanks!
       Clip: {fileID: 0}
   - ID: 21
     Type: 3
@@ -2525,8 +2525,8 @@ MonoBehaviour:
       - The Christmas market is free for you to explore
       NextMessages: 1200000010000000
       ChoiceActions:
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: 1423748859068822704, guid: 3f6c587020cec408aa0fc720a29a94f2, type: 3}
+      - {fileID: 1423748859068822704, guid: 3f6c587020cec408aa0fc720a29a94f2, type: 3}
   - ID: 17
     Type: 2
     Window:

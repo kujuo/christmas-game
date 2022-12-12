@@ -1434,8 +1434,8 @@ MonoBehaviour:
       - Bad rom-com moment?
       NextMessages: 0400000008000000
       ChoiceActions:
-      - {fileID: 0}
-      - {fileID: 0}
+      - {fileID: 2703955254763377375, guid: 4b8a4f2362e7d42929aedde89515a7ba, type: 3}
+      - {fileID: 2703955254763377375, guid: 4b8a4f2362e7d42929aedde89515a7ba, type: 3}
   - ID: 11
     Type: 2
     Window:

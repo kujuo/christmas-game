@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Little_Girl_After_Help
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: c83a8e69e404b49b68986c2353205d2a, type: 2}
-  NextID: 3
+  NextID: 5
   Nodes:
   - ID: 0
     Type: 2
     Window:
       serializedVersion: 2
-      x: 443.40274
-      y: 1642.9116
+      x: 146.40274
+      y: 1420.9116
       width: 200
       height: 110
     Inputs: []
@@ -44,8 +44,8 @@ MonoBehaviour:
     Type: 1
     Window:
       serializedVersion: 2
-      x: 423.4027
-      y: 1841.9116
+      x: 144.40271
+      y: 1558.9116
       width: 200
       height: 65
     Inputs: []
@@ -69,8 +69,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 784.4027
-      y: 1719.9116
+      x: 448.4027
+      y: 1427.9116
       width: 200
       height: 175
     Inputs:
