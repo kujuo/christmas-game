@@ -229,7 +229,7 @@ TextureImporter:
         width: 24
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,6 +237,48 @@ TextureImporter:
       bones: []
       spriteID: 9f078471a177b44dc9738b05ae222dfd
       internalID: -847955191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChristmasIcon_StandAlone_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 50
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2d7d491627a4c8b9eee7aa4aa1d657
+      internalID: -1370551005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChristmasIcon_StandAlone_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 25
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33718bcc4518e49c49d3f34905b9fb87
+      internalID: 1737624071
       vertices: []
       indices: 
       edges: []
@@ -252,12 +294,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      ChristmasIcon_StandAlone_SpriteSheet_6: -1370551005
       ChristmasIcon_StandAlone_SpriteSheet_2: -488127296
       ChristmasIcon_StandAlone_SpriteSheet_1: -70331899
       ChristmasIcon_StandAlone_SpriteSheet_0: -185810237
       ChristmasIcon_StandAlone_SpriteSheet_5: -847955191
       ChristmasIcon_StandAlone_SpriteSheet_4: -1282120143
       ChristmasIcon_StandAlone_SpriteSheet_3: 1973945727
+      ChristmasIcon_StandAlone_SpriteSheet_7: 1737624071
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
