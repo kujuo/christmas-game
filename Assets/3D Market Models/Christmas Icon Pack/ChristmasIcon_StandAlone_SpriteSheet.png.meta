@@ -271,7 +271,7 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,69 @@ TextureImporter:
       bones: []
       spriteID: 33718bcc4518e49c49d3f34905b9fb87
       internalID: 1737624071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChristmasIcon_StandAlone_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 30
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d95dc53403804fed916fd0ac9b97c0a
+      internalID: 1058897984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChristmasIcon_StandAlone_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 50
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0147f4835850487eb54234edae12025
+      internalID: 1153567594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChristmasIcon_StandAlone_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 48
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbea4fa5a7e845fdb7350069b2ce494
+      internalID: 288726797
       vertices: []
       indices: 
       edges: []
@@ -299,9 +362,12 @@ TextureImporter:
       ChristmasIcon_StandAlone_SpriteSheet_1: -70331899
       ChristmasIcon_StandAlone_SpriteSheet_0: -185810237
       ChristmasIcon_StandAlone_SpriteSheet_5: -847955191
+      ChristmasIcon_StandAlone_SpriteSheet_9: 1153567594
       ChristmasIcon_StandAlone_SpriteSheet_4: -1282120143
       ChristmasIcon_StandAlone_SpriteSheet_3: 1973945727
+      ChristmasIcon_StandAlone_SpriteSheet_10: 288726797
       ChristmasIcon_StandAlone_SpriteSheet_7: 1737624071
+      ChristmasIcon_StandAlone_SpriteSheet_8: 1058897984
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
