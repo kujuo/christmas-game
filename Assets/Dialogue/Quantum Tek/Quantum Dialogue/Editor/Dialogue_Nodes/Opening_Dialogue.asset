@@ -2709,7 +2709,7 @@ MonoBehaviour:
       - 'Hmmmm maybe it''s time I do a little treasure hunt! '
       NextMessages: 16000000
       ChoiceActions:
-      - {fileID: 0}
+      - {fileID: 3413010176553807460, guid: 1c9d809515c6f4b978e2e5645ca2a997, type: 3}
   - ID: 15
     Type: 2
     Window:
