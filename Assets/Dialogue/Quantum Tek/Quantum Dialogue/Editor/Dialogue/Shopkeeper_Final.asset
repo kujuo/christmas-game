@@ -160,7 +160,7 @@ MonoBehaviour:
     - Here. Take this.
     NextMessages: 08000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 1287726317866818577, guid: 557c1261463d6470ba68b246236ac031, type: 3}
   - ID: 9
     Choices:
     - Are you okay?

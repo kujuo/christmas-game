@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Postman_Lovequest
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: 693d24f05ee2d4494935416f4eb4e75c, type: 2}
-  NextID: 12
+  NextID: 14
   Nodes:
   - ID: 0
     Type: 2
@@ -447,8 +447,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 0d000000
+        values:
+        - Array: 00000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -637,8 +638,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 
-        values: []
+        keys: 0c000000
+        values:
+        - Array: 00000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -717,6 +719,80 @@ MonoBehaviour:
         keys: 06000000
         values:
         - Array: 01000000
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+  - ID: 12
+    Type: 4
+    Window:
+      serializedVersion: 2
+      x: 619.3334
+      y: 792.0616
+      width: 300
+      height: 135
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Choice 1
+      Type: 1
+      Y: 65
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+  - ID: 13
+    Type: 4
+    Window:
+      serializedVersion: 2
+      x: 1167.8889
+      y: 711.0616
+      width: 300
+      height: 135
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 07000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Choice 1
+      Type: 1
+      Y: 65
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
     AllowedInputs:
     - InputType: 3
       InputID: 1
@@ -1158,7 +1234,7 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Postman
       PreviousMessage: 6
-      NextMessage: -1
+      NextMessage: 13
       MessageText: I mean mail always makes me happy. Here, take this and give it
         to him, maybe he'll be nicer to you.
       Clip: {fileID: 0}
@@ -1361,7 +1437,7 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Postman
       PreviousMessage: 8
-      NextMessage: -1
+      NextMessage: 12
       MessageText: I don't know if this helps, but here's some of the mail I never
         delivered to him. Maybe it'll help?
       Clip: {fileID: 0}
@@ -1471,3 +1547,73 @@ MonoBehaviour:
       NextMessages: 06000000
       ChoiceActions:
       - {fileID: 0}
+  - ID: 12
+    Type: 2
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 300
+      height: 65
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    Data:
+      ID: 12
+      Choices:
+      - What's in all these mails?
+      NextMessages: 09000000
+      ChoiceActions:
+      - {fileID: 9083596502978010415, guid: a1de60958ffd64bf68900d2c51f66da9, type: 3}
+  - ID: 13
+    Type: 2
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 300
+      height: 65
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    Data:
+      ID: 13
+      Choices:
+      - What's in all these mails?
+      NextMessages: 07000000
+      ChoiceActions:
+      - {fileID: 9083596502978010415, guid: a1de60958ffd64bf68900d2c51f66da9, type: 3}
