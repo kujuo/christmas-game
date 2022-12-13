@@ -50,7 +50,7 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: 6
-    NextMessage: -1
+    NextMessage: 13
     MessageText: I mean mail always makes me happy. Here, take this and give it to
       him, maybe he'll be nicer to you.
     Clip: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: 8
-    NextMessage: -1
+    NextMessage: 12
     MessageText: I don't know if this helps, but here's some of the mail I never
       delivered to him. Maybe it'll help?
     Clip: {fileID: 0}
@@ -86,4 +86,16 @@ MonoBehaviour:
     NextMessages: 06000000
     ChoiceActions:
     - {fileID: 0}
+  - ID: 12
+    Choices:
+    - What's in all these mails?
+    NextMessages: 09000000
+    ChoiceActions:
+    - {fileID: 9083596502978010415, guid: a1de60958ffd64bf68900d2c51f66da9, type: 3}
+  - ID: 13
+    Choices:
+    - What's in all these mails?
+    NextMessages: 07000000
+    ChoiceActions:
+    - {fileID: 9083596502978010415, guid: a1de60958ffd64bf68900d2c51f66da9, type: 3}
   Actions: []
