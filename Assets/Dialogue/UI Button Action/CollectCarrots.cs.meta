@@ -3,7 +3,10 @@ guid: 52085b323db894bf0ac97bba84f043ef
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - DialoguePrefab: {fileID: 8520158652077676314, guid: 894a28d4f46554ad78d3f49eaebfe2a5,
+      type: 3}
+  - CurrDialogue: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

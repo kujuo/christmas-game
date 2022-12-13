@@ -419,8 +419,8 @@ MonoBehaviour:
     Type: 4
     Window:
       serializedVersion: 2
-      x: 631
-      y: 1104.3158
+      x: 595
+      y: 1105.3158
       width: 300
       height: 135
     Inputs:
@@ -725,8 +725,8 @@ MonoBehaviour:
     Type: 1
     Window:
       serializedVersion: 2
-      x: 65
-      y: 1731.6063
+      x: 57
+      y: 1724.6063
       width: 200
       height: 65
     Inputs: []
