@@ -111,6 +111,7 @@ MonoBehaviour:
   - Postman lovequest
   DialogueCount: 0
   CurrDialogue: {fileID: 0}
+  NPCName: Postman
 --- !u!65 &2477857562075090283
 BoxCollider:
   m_ObjectHideFlags: 0

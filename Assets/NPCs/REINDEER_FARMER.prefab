@@ -109,6 +109,7 @@ MonoBehaviour:
   - Reindeer lovequest
   DialogueCount: 0
   CurrDialogue: {fileID: 0}
+  NPCName: Reindeer farmer
 --- !u!65 &4635646771505763455
 BoxCollider:
   m_ObjectHideFlags: 0

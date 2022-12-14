@@ -22,7 +22,7 @@ MonoBehaviour:
   Speakers:
   - ID: 0
     Name: Little Girl
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: b3bbcb9c191e2f848a9d92c04a0de95f, type: 3}
   Messages:
   - ID: 3
     Speaker: 0

@@ -109,6 +109,7 @@ MonoBehaviour:
   - After help
   DialogueCount: 0
   CurrDialogue: {fileID: 0}
+  NPCName: Little Girl
 --- !u!65 &4074016458010151972
 BoxCollider:
   m_ObjectHideFlags: 0
