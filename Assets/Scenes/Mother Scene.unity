@@ -731,6 +731,7 @@ MonoBehaviour:
   - Opening cutscene
   DialogueCount: 0
   CurrDialogue: {fileID: 0}
+  NPCName: Mother
 --- !u!1 &1594616603
 GameObject:
   m_ObjectHideFlags: 0
