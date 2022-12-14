@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FeedCarrot : Action
 {
+    public GameObject teleport1;
+    public GameObject teleport2;
     public override void DoAction()
     {
         StoryManager manager = StoryManager.Instance;

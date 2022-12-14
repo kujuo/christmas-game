@@ -19,7 +19,7 @@ MonoBehaviour:
   Speakers:
   - ID: 1
     Name: Reindeer farmer
-    Icon: {fileID: 0}
+    Icon: {fileID: 21300000, guid: 6f63d93b54d535a48979f37b69a27173, type: 3}
   Messages:
   - ID: 2
     Speaker: 1
