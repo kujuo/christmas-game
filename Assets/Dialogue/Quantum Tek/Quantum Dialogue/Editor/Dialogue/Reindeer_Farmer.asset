@@ -32,15 +32,13 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Reindeer farmer
     PreviousMessage: 3
-    NextMessage: 5
-    MessageText: Sven. Like in that one Disney movie. Don't call him that though,
-      he gets fussy because he expects you to break into songs after he hears his
-      name.
+    NextMessage: 14
+    MessageText: Sven. Like in that one Disney movie.
     Clip: {fileID: 0}
   - ID: 5
     Speaker: 0
     SpeakerName: Reindeer farmer
-    PreviousMessage: 4
+    PreviousMessage: 14
     NextMessage: 6
     MessageText: 'He''s hungry right now too, so he''ll be very aggressive about
       it. '
@@ -65,9 +63,9 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Reindeer farmer
     PreviousMessage: -1
-    NextMessage: 10
-    MessageText: Not too bad. The worst part is when Sven here sees carrots. He's
-      obsessed with them. I think he'd marry a carrot if he could.
+    NextMessage: 15
+    MessageText: 'Not too bad. The worst part is when Sven here sees carrots. He''s
+      obsessed with them. '
     Clip: {fileID: 0}
   - ID: 12
     Speaker: 0
@@ -82,6 +80,21 @@ MonoBehaviour:
     PreviousMessage: -1
     NextMessage: -1
     MessageText: Bye!
+    Clip: {fileID: 0}
+  - ID: 14
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 4
+    NextMessage: 5
+    MessageText: Don't call him that though, he gets fussy because he expects you
+      to break into songs after he hears his name.
+    Clip: {fileID: 0}
+  - ID: 15
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 9
+    NextMessage: 10
+    MessageText: I think he'd marry a carrot if he could.
     Clip: {fileID: 0}
   Choices:
   - ID: 3

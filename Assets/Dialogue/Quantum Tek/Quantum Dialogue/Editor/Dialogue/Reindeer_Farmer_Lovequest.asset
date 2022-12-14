@@ -43,14 +43,21 @@ MonoBehaviour:
     SpeakerName: Reindeer farmer
     PreviousMessage: 5
     NextMessage: 7
-    MessageText: 'It''s funny, when I was coming over here I accidentally just ran
-      straight into him and he dropped  the stuff he was holding and we both went
-      down to pick it up and our hands touched and he just started laughing uncontrollably. '
+    MessageText: It's funny, when I was coming over here I accidentally just ran
+      straight into him and he dropped  the stuff he was holding
     Clip: {fileID: 0}
   - ID: 7
     Speaker: 0
     SpeakerName: Reindeer farmer
     PreviousMessage: 6
+    NextMessage: 8
+    MessageText: 'And we both went down to pick it up and our hands touched and he
+      just started laughing uncontrollably. '
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 7
     NextMessage: -1
     MessageText: 'Weird guy, but I kinda like it. '
     Clip: {fileID: 0}

@@ -40,10 +40,10 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: 4
-    NextMessage: -1
+    NextMessage: 28
     MessageText: You know Kristoff, the reindeer guy? I saw the shopkeeper yelling
       at him yesterday. Totally undeserved, because Kristoff seems like such a nice
-      guy. Don't tell him I said that though. It's, uh. Embarrassing.
+      guy.
     Clip: {fileID: 0}
   - ID: 6
     Speaker: 0
@@ -74,19 +74,17 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: -1
-    NextMessage: -1
-    MessageText: Nah, don't worry about it. I mean....some of it seems sentimental
-      and stuffs. But I really don't want to deliver the letters to him. He might
-      jump on me next time, and I am scared and sick and tired of him!
+    NextMessage: 27
+    MessageText: 'Nah, don''t worry about it. I mean....some of it seems sentimental
+      and stuffs. But I really don''t want to deliver the letters to him. '
     Clip: {fileID: 0}
   - ID: 14
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: 8
-    NextMessage: -1
-    MessageText: 'I don''t really know. It''s not like I went through ALL of his
-      letters. But his daughters used to write him a lot of letters? I still have
-      some of them, but hell if I want to deliver them to him. '
+    NextMessage: 26
+    MessageText: I don't really know. It's not like I went through ALL of his letters.
+      But his daughters used to write him a lot of letters?
     Clip: {fileID: 0}
   - ID: 15
     Speaker: 0
@@ -143,6 +141,29 @@ MonoBehaviour:
     PreviousMessage: -1
     NextMessage: -1
     MessageText: Then, have a good day!
+    Clip: {fileID: 0}
+  - ID: 26
+    Speaker: 0
+    SpeakerName: Postman
+    PreviousMessage: 14
+    NextMessage: -1
+    MessageText: 'I still have some of them, but hell if I want to deliver them to
+      him. '
+    Clip: {fileID: 0}
+  - ID: 27
+    Speaker: 0
+    SpeakerName: Postman
+    PreviousMessage: 13
+    NextMessage: -1
+    MessageText: He might jump on me next time, and I am scared and sick and tired
+      of him!
+    Clip: {fileID: 0}
+  - ID: 28
+    Speaker: 0
+    SpeakerName: Postman
+    PreviousMessage: 5
+    NextMessage: -1
+    MessageText: Don't tell him I said that though. It's, uh. Embarrassing.
     Clip: {fileID: 0}
   Choices:
   - ID: 3

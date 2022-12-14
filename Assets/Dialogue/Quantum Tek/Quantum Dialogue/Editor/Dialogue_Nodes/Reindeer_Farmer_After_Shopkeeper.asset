@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Reindeer_Farmer_After_Shopkeeper
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: e725002a10918458fad1dcc287d2af6c, type: 2}
-  NextID: 13
+  NextID: 14
   Nodes:
   - ID: 0
     Type: 1
@@ -623,7 +623,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 0a000000
+        keys: 0d000000
         values:
         - Array: 00000000
     - ID: 1
@@ -632,7 +632,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 0a000000
+        keys: 0d000000
         values:
         - Array: 01000000
     AllowedInputs:
@@ -689,8 +689,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1881.201
-      y: 637.1187
+      x: 2130.2012
+      y: 630.1187
       width: 200
       height: 175
     Inputs:
@@ -700,7 +700,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 09000000
+        keys: 0d000000
         values:
         - Array: 00000000
     - ID: 1
@@ -709,7 +709,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 09000000
+        keys: 0d000000
         values:
         - Array: 01000000
     Outputs:
@@ -785,8 +785,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 2125.5874
-      y: 632.1187
+      x: 2368.5874
+      y: 625.1187
       width: 200
       height: 175
     Inputs:
@@ -919,6 +919,102 @@ MonoBehaviour:
       Connections:
         keys: 
         values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+  - ID: 13
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 1877.1125
+      y: 631
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 0a000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0a000000
+        values:
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -1499,10 +1595,9 @@ MonoBehaviour:
       Speaker: 1
       SpeakerName: Reindeer farmer
       PreviousMessage: -1
-      NextMessage: 10
-      MessageText: Is it that obvious? I mean, I love Sven and all, but he's so needy
-        sometimes. It's tough being a new guy in town. I wish I could just spend
-        time with an actual human being, holding hands or something, you know?
+      NextMessage: 13
+      MessageText: 'Is it that obvious? I mean, I love Sven and all, but he''s so
+        needy sometimes. '
       Clip: {fileID: 0}
   - ID: 10
     Type: 3
@@ -1598,9 +1693,9 @@ MonoBehaviour:
       OutputID: 1
     Data:
       ID: 10
-      Speaker: 1
-      SpeakerName: Reindeer farmer
-      PreviousMessage: 9
+      Speaker: -1
+      SpeakerName: 
+      PreviousMessage: 13
       NextMessage: 11
       MessageText: "I mean just standing there at the market makes me all nervous.
         Every time the post guy walks by, I get butterflies...oops did I just said
@@ -1808,6 +1903,107 @@ MonoBehaviour:
       MessageText: 'You know it. I think I haven''t left Sven''s side in four months.
         I don''t think I know what fresh air smells like anymore. Oh, I can''t even
         remember what it feels like to rest my head on a human''s shoulder. '
+      Clip: {fileID: 0}
+  - ID: 13
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 13
+      Speaker: 1
+      SpeakerName: Reindeer farmer
+      PreviousMessage: 9
+      NextMessage: 10
+      MessageText: It's tough being a new guy in town. I wish I could just spend
+        time with an actual human being, holding hands or something, you know?
       Clip: {fileID: 0}
   ConversationNodes:
   - ID: 0

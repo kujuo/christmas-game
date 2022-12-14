@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Postman
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: e981989acf5cf494c9466368d78d028e, type: 2}
-  NextID: 18
+  NextID: 20
   Nodes:
   - ID: 0
     Type: 2
@@ -261,7 +261,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 08000000
+        keys: 12000000
         values:
         - Array: 00000000
     - ID: 1
@@ -270,7 +270,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 08000000
+        keys: 12000000
         values:
         - Array: 01000000
     AllowedInputs:
@@ -327,8 +327,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 978
-      y: 635.31134
+      x: 1213
+      y: 640.31134
       width: 200
       height: 175
     Inputs:
@@ -338,7 +338,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 06000000
+        keys: 12000000
         values:
         - Array: 00000000
     - ID: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 06000000
+        keys: 12000000
         values:
         - Array: 01000000
     Outputs:
@@ -423,8 +423,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1224
-      y: 632.31134
+      x: 1444
+      y: 631.31134
       width: 200
       height: 175
     Inputs:
@@ -651,8 +651,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 289.4657
-      y: 840.31134
+      x: 278.4657
+      y: 841.31134
       width: 200
       height: 175
     Inputs:
@@ -681,8 +681,9 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 10000000
+        keys: 1000000013000000
         values:
+        - Array: 00000000
         - Array: 00000000
     - ID: 1
       Name: Next
@@ -690,9 +691,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 0f000000
+        keys: 13000000
         values:
-        - Array: 00000000
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -747,8 +748,8 @@ MonoBehaviour:
     Type: 4
     Window:
       serializedVersion: 2
-      x: 536.4657
-      y: 882.12665
+      x: 793.4657
+      y: 881.12665
       width: 300
       height: 135
     Inputs:
@@ -758,7 +759,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 0d000000
+        keys: 13000000
         values:
         - Array: 01000000
     Outputs:
@@ -785,8 +786,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 920.4657
-      y: 840.4116
+      x: 1155.4657
+      y: 833.4116
       width: 200
       height: 175
     Inputs:
@@ -919,6 +920,197 @@ MonoBehaviour:
       Connections:
         keys: 
         values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+  - ID: 18
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 965.1614
+      y: 642.971
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 06000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 06000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 08000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 08000000
+        values:
+        - Array: 01000000
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+  - ID: 19
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 538.1614
+      y: 838.31885
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0d000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0d000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0f000000
+        values:
+        - Array: 00000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -1196,10 +1388,9 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Postman
       PreviousMessage: 5
-      NextMessage: 8
+      NextMessage: 18
       MessageText: That's good to hear. I can't tell you how often I bump into someone
-        and the mail goes spilling out, and we both bend down to pick it up, and
-        the other person expects the moment to be the start of a bad rom-com.
+        and the mail goes spilling out
       Clip: {fileID: 0}
   - ID: 8
     Type: 3
@@ -1297,7 +1488,7 @@ MonoBehaviour:
       ID: 8
       Speaker: 0
       SpeakerName: Postman
-      PreviousMessage: 6
+      PreviousMessage: 18
       NextMessage: 9
       MessageText: 'They just think that somehow our hands are going to touch and
         we''re going to look each other in the eye and fall in love. '
@@ -1599,11 +1790,10 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Postman
       PreviousMessage: -1
-      NextMessage: 15
-      MessageText: 'O-oh, I just got off work, that''s why.Neither snow nor rain
+      NextMessage: 19
+      MessageText: 'O-oh, I just got off work, that''s why. Neither snow nor rain
         nor heat nor gloom of the night, as they say, but the snow truck stops working
-        when it snows more than shin-high, so now I''m here, with loads of work adrenaline
-        in me. '
+        when it snows more than shin-high. '
       Clip: {fileID: 0}
   - ID: 16
     Type: 3
@@ -1804,6 +1994,207 @@ MonoBehaviour:
       PreviousMessage: -1
       NextMessage: -1
       MessageText: Bye!
+      Clip: {fileID: 0}
+  - ID: 18
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 18
+      Speaker: 0
+      SpeakerName: Postman
+      PreviousMessage: 6
+      NextMessage: 8
+      MessageText: and we both bend down to pick it up, and the other person expects
+        the moment to be the start of a bad rom-com.
+      Clip: {fileID: 0}
+  - ID: 19
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 19
+      Speaker: 0
+      SpeakerName: Postman
+      PreviousMessage: 13
+      NextMessage: 15
+      MessageText: 'So now I''m here, with loads of work adrenaline in me. '
       Clip: {fileID: 0}
   ConversationNodes:
   - ID: 2

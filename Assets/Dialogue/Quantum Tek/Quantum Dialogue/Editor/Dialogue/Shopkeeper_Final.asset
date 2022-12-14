@@ -16,6 +16,9 @@ MonoBehaviour:
   - ID: 1
     Name: Shopkeeper final
     FirstMessage: 2
+  - ID: 39
+    Name: After read letter
+    FirstMessage: -1
   Speakers:
   - ID: 0
     Name: Shopkeeper
@@ -78,7 +81,7 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Shopkeeper
     PreviousMessage: 17
-    NextMessage: 38
+    NextMessage: 41
     MessageText: 'Oh, what the heck. It''s Christmas. I''ll buy him a drink, even. '
     Clip: {fileID: 0}
   - ID: 20
@@ -144,7 +147,7 @@ MonoBehaviour:
   - ID: 38
     Speaker: 0
     SpeakerName: Shopkeeper
-    PreviousMessage: 18
+    PreviousMessage: -1
     NextMessage: -1
     MessageText: Merry Christmas!
     Clip: {fileID: 0}
@@ -200,13 +203,13 @@ MonoBehaviour:
     - New year, new you?
     NextMessages: 1b000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 6571218696772816476, guid: fbcb06f21e0494caeb59d96524a3f192, type: 3}
   - ID: 29
     Choices:
     - And I'll start by proving I do listen to my mom.
     NextMessages: 25000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 6571218696772816476, guid: fbcb06f21e0494caeb59d96524a3f192, type: 3}
   - ID: 32
     Choices:
     - Thank you too.
@@ -218,5 +221,11 @@ MonoBehaviour:
     - Not at all.
     NextMessages: 24000000
     ChoiceActions:
-    - {fileID: 0}
+    - {fileID: 6571218696772816476, guid: fbcb06f21e0494caeb59d96524a3f192, type: 3}
+  - ID: 41
+    Choices:
+    - Merry Christmas!
+    NextMessages: 26000000
+    ChoiceActions:
+    - {fileID: 6571218696772816476, guid: fbcb06f21e0494caeb59d96524a3f192, type: 3}
   Actions: []

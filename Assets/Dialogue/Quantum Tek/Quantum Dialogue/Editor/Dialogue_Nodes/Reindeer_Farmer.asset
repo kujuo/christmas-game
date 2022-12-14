@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Reindeer_Farmer
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: 28af047fe9a444c798889266feb8356b, type: 2}
-  NextID: 14
+  NextID: 16
   Nodes:
   - ID: 0
     Type: 2
@@ -261,7 +261,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 05000000
+        keys: 0e000000
         values:
         - Array: 00000000
     - ID: 1
@@ -270,7 +270,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 05000000
+        keys: 0e000000
         values:
         - Array: 01000000
     AllowedInputs:
@@ -327,8 +327,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 971.0088
-      y: 475
+      x: 1186.0088
+      y: 476
       width: 200
       height: 175
     Inputs:
@@ -338,7 +338,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 04000000
+        keys: 0e000000
         values:
         - Array: 00000000
     - ID: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 04000000
+        keys: 0e000000
         values:
         - Array: 01000000
     Outputs:
@@ -423,8 +423,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1231.0088
-      y: 474
+      x: 1451.0088
+      y: 470
       width: 200
       height: 175
     Inputs:
@@ -519,8 +519,8 @@ MonoBehaviour:
     Type: 4
     Window:
       serializedVersion: 2
-      x: 1475.8508
-      y: 477
+      x: 1719.8508
+      y: 466
       width: 300
       height: 135
     Inputs:
@@ -681,8 +681,9 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 1
       Connections:
-        keys: 0c000000
+        keys: 0c0000000f000000
         values:
+        - Array: 00000000
         - Array: 00000000
     - ID: 1
       Name: Next
@@ -690,9 +691,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 0a000000
+        keys: 0f000000
         values:
-        - Array: 00000000
+        - Array: 01000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -747,8 +748,8 @@ MonoBehaviour:
     Type: 4
     Window:
       serializedVersion: 2
-      x: 974.772
-      y: 679.86523
+      x: 1232.772
+      y: 695.86523
       width: 300
       height: 135
     Inputs:
@@ -758,7 +759,7 @@ MonoBehaviour:
       Y: 7.5
       AllowMultipleConnections: 0
       Connections:
-        keys: 09000000
+        keys: 0f000000
         values:
         - Array: 01000000
     Outputs:
@@ -785,8 +786,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1345.6842
-      y: 673.86523
+      x: 1605.6842
+      y: 655.86523
       width: 200
       height: 175
     Inputs:
@@ -919,6 +920,197 @@ MonoBehaviour:
       Connections:
         keys: 
         values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+  - ID: 14
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 933
+      y: 477
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 04000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 04000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 05000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 05000000
+        values:
+        - Array: 01000000
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+  - ID: 15
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 964.9342
+      y: 678
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 00000000
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0a000000
+        values:
+        - Array: 00000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -1196,10 +1388,8 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Reindeer farmer
       PreviousMessage: 3
-      NextMessage: 5
-      MessageText: Sven. Like in that one Disney movie. Don't call him that though,
-        he gets fussy because he expects you to break into songs after he hears his
-        name.
+      NextMessage: 14
+      MessageText: Sven. Like in that one Disney movie.
       Clip: {fileID: 0}
   - ID: 5
     Type: 3
@@ -1297,7 +1487,7 @@ MonoBehaviour:
       ID: 5
       Speaker: 0
       SpeakerName: Reindeer farmer
-      PreviousMessage: 4
+      PreviousMessage: 14
       NextMessage: 6
       MessageText: 'He''s hungry right now too, so he''ll be very aggressive about
         it. '
@@ -1601,9 +1791,9 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Reindeer farmer
       PreviousMessage: -1
-      NextMessage: 10
-      MessageText: Not too bad. The worst part is when Sven here sees carrots. He's
-        obsessed with them. I think he'd marry a carrot if he could.
+      NextMessage: 15
+      MessageText: 'Not too bad. The worst part is when Sven here sees carrots. He''s
+        obsessed with them. '
       Clip: {fileID: 0}
   - ID: 12
     Type: 3
@@ -1804,6 +1994,207 @@ MonoBehaviour:
       PreviousMessage: -1
       NextMessage: -1
       MessageText: Bye!
+      Clip: {fileID: 0}
+  - ID: 14
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 14
+      Speaker: 0
+      SpeakerName: Reindeer farmer
+      PreviousMessage: 4
+      NextMessage: 5
+      MessageText: Don't call him that though, he gets fussy because he expects you
+        to break into songs after he hears his name.
+      Clip: {fileID: 0}
+  - ID: 15
+    Type: 3
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 200
+      height: 175
+    Inputs:
+    - ID: 0
+      Name: Speaker
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Previous
+      Type: 0
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs:
+    - ID: 0
+      Name: Speaker
+      Type: 1
+      Y: 7.5
+      AllowMultipleConnections: 1
+      Connections:
+        keys: 
+        values: []
+    - ID: 1
+      Name: Next
+      Type: 1
+      Y: 35
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 2
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 3
+      InputID: 1
+      OutputType: 1
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 0
+      OutputType: 3
+      OutputID: 0
+    - InputType: 3
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 0
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 1
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 2
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 3
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 4
+      OutputType: 3
+      OutputID: 1
+    - InputType: 4
+      InputID: 5
+      OutputType: 3
+      OutputID: 1
+    Data:
+      ID: 15
+      Speaker: 0
+      SpeakerName: Reindeer farmer
+      PreviousMessage: 9
+      NextMessage: 10
+      MessageText: I think he'd marry a carrot if he could.
       Clip: {fileID: 0}
   ConversationNodes:
   - ID: 1

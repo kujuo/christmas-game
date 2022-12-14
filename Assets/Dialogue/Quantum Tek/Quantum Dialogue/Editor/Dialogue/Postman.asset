@@ -32,15 +32,14 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: 5
-    NextMessage: 8
+    NextMessage: 18
     MessageText: That's good to hear. I can't tell you how often I bump into someone
-      and the mail goes spilling out, and we both bend down to pick it up, and the
-      other person expects the moment to be the start of a bad rom-com.
+      and the mail goes spilling out
     Clip: {fileID: 0}
   - ID: 8
     Speaker: 0
     SpeakerName: Postman
-    PreviousMessage: 6
+    PreviousMessage: 18
     NextMessage: 9
     MessageText: 'They just think that somehow our hands are going to touch and we''re
       going to look each other in the eye and fall in love. '
@@ -63,11 +62,10 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Postman
     PreviousMessage: -1
-    NextMessage: 15
-    MessageText: 'O-oh, I just got off work, that''s why.Neither snow nor rain nor
+    NextMessage: 19
+    MessageText: 'O-oh, I just got off work, that''s why. Neither snow nor rain nor
       heat nor gloom of the night, as they say, but the snow truck stops working
-      when it snows more than shin-high, so now I''m here, with loads of work adrenaline
-      in me. '
+      when it snows more than shin-high. '
     Clip: {fileID: 0}
   - ID: 16
     Speaker: 0
@@ -82,6 +80,21 @@ MonoBehaviour:
     PreviousMessage: -1
     NextMessage: -1
     MessageText: Bye!
+    Clip: {fileID: 0}
+  - ID: 18
+    Speaker: 0
+    SpeakerName: Postman
+    PreviousMessage: 6
+    NextMessage: 8
+    MessageText: and we both bend down to pick it up, and the other person expects
+      the moment to be the start of a bad rom-com.
+    Clip: {fileID: 0}
+  - ID: 19
+    Speaker: 0
+    SpeakerName: Postman
+    PreviousMessage: 13
+    NextMessage: 15
+    MessageText: 'So now I''m here, with loads of work adrenaline in me. '
     Clip: {fileID: 0}
   Choices:
   - ID: 5

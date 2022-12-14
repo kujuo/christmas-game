@@ -55,18 +55,17 @@ MonoBehaviour:
     Speaker: 1
     SpeakerName: Reindeer farmer
     PreviousMessage: -1
-    NextMessage: 10
-    MessageText: Is it that obvious? I mean, I love Sven and all, but he's so needy
-      sometimes. It's tough being a new guy in town. I wish I could just spend time
-      with an actual human being, holding hands or something, you know?
+    NextMessage: 13
+    MessageText: 'Is it that obvious? I mean, I love Sven and all, but he''s so needy
+      sometimes. '
     Clip: {fileID: 0}
   - ID: 10
-    Speaker: 1
-    SpeakerName: Reindeer farmer
-    PreviousMessage: 9
+    Speaker: -1
+    SpeakerName: 
+    PreviousMessage: 13
     NextMessage: 11
     MessageText: "I mean just standing there at the market makes me all nervous.
-      Every time the post guy walks by, I get butterflies...\noops did I just said
+      Every time the post guy walks by, I get butterflies...oops did I just said
       that? Whatever. \n\n"
     Clip: {fileID: 0}
   - ID: 11
@@ -85,6 +84,14 @@ MonoBehaviour:
     MessageText: 'You know it. I think I haven''t left Sven''s side in four months.
       I don''t think I know what fresh air smells like anymore. Oh, I can''t even
       remember what it feels like to rest my head on a human''s shoulder. '
+    Clip: {fileID: 0}
+  - ID: 13
+    Speaker: 1
+    SpeakerName: Reindeer farmer
+    PreviousMessage: 9
+    NextMessage: 10
+    MessageText: It's tough being a new guy in town. I wish I could just spend time
+      with an actual human being, holding hands or something, you know?
     Clip: {fileID: 0}
   Choices:
   - ID: 3
