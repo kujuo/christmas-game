@@ -11,6 +11,7 @@ public class DialogueTracker : MonoBehaviour
     public TextMeshProUGUI messageText;
     public Transform choices;
     public TextMeshProUGUI choiceTemplate;
+    public Image image;
 
     private List<TextMeshProUGUI> activeChoices = new List<TextMeshProUGUI>();
     private List<TextMeshProUGUI> inactiveChoices = new List<TextMeshProUGUI>();
@@ -118,12 +119,14 @@ public class DialogueTracker : MonoBehaviour
             speakerName.text = message.SpeakerName;
             messageText.text = message.MessageText;
             messageText.gameObject.SetActive(true);
+            image.gameObject.SetActive(true);
 
         }
         else if (handler.currentMessageInfo.Type == QD_NodeType.Choice)
         {
             speakerName.text = "Player";
             GenerateChoices();
+            image.gameObject.SetActive(false);
         }
     }
 

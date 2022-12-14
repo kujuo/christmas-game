@@ -554,6 +554,7 @@ MonoBehaviour:
   messageText: {fileID: 8520158651243069197}
   choices: {fileID: 8520158650997398540}
   choiceTemplate: {fileID: 8520158649990844835}
+  image: {fileID: 5761487333324189495}
   Conversation: 
 --- !u!1 &8520158650350438844
 GameObject:
