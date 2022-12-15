@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Opening_Dialogue
   m_EditorClassIdentifier: 
   DataDB: {fileID: 11400000, guid: 39e872cf550454c769e6dce0c91e0270, type: 2}
-  NextID: 24
+  NextID: 26
   Nodes:
   - ID: 0
     Type: 2
@@ -486,9 +486,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 0b000000
+        keys: 19000000
         values:
-        - Array: 01000000
+        - Array: 00000000
     AllowedInputs:
     - InputType: 3
       InputID: 0
@@ -543,8 +543,8 @@ MonoBehaviour:
     Type: 3
     Window:
       serializedVersion: 2
-      x: 1737.3999
-      y: 392
+      x: 1971.3999
+      y: 391
       width: 200
       height: 175
     Inputs:
@@ -563,9 +563,9 @@ MonoBehaviour:
       Y: 35
       AllowMultipleConnections: 0
       Connections:
-        keys: 09000000
+        keys: 19000000
         values:
-        - Array: 01000000
+        - Array: 00000000
     Outputs:
     - ID: 0
       Name: Speaker
@@ -1383,6 +1383,44 @@ MonoBehaviour:
       InputID: 5
       OutputType: 3
       OutputID: 1
+  - ID: 25
+    Type: 4
+    Window:
+      serializedVersion: 2
+      x: 1692.264
+      y: 214.30609
+      width: 300
+      height: 135
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 09000000
+        values:
+        - Array: 01000000
+    Outputs:
+    - ID: 0
+      Name: Choice 1
+      Type: 1
+      Y: 65
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 0b000000
+        values:
+        - Array: 01000000
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
   SpeakerNodes:
   - ID: 0
     Type: 0
@@ -1829,7 +1867,7 @@ MonoBehaviour:
       Speaker: 0
       SpeakerName: Mother
       PreviousMessage: -1
-      NextMessage: 11
+      NextMessage: 25
       MessageText: Look, I have a picture of it on my phone.
       Clip: {fileID: 0}
   - ID: 11
@@ -1928,7 +1966,7 @@ MonoBehaviour:
       ID: 11
       Speaker: 0
       SpeakerName: Mother
-      PreviousMessage: 9
+      PreviousMessage: -1
       NextMessage: 12
       MessageText: I lost it around this time last year, probably in the move.
       Clip: {fileID: 0}
@@ -2792,3 +2830,38 @@ MonoBehaviour:
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
+  - ID: 25
+    Type: 2
+    Window:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 300
+      height: 65
+    Inputs:
+    - ID: 0
+      Name: Previous Messages
+      Type: 0
+      Y: 7.5
+      AllowMultipleConnections: 0
+      Connections:
+        keys: 
+        values: []
+    Outputs: []
+    AllowedInputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    AllowedOutputs:
+    - InputType: 3
+      InputID: 1
+      OutputType: 4
+      OutputID: 0
+    Data:
+      ID: 25
+      Choices:
+      - Okay
+      NextMessages: 0b000000
+      ChoiceActions:
+      - {fileID: 7282878960356259880, guid: 56c2a120cf6e44bc7aa24c3977f53ab4, type: 3}
