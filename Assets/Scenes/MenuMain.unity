@@ -1037,7 +1037,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.0025403472, y: 0.99745965, z: -0.050209932, w: -0.05046599}
+  m_LocalRotation: {x: -0.0025403497, y: 0.99745965, z: -0.05020995, w: -0.050466023}
   m_LocalPosition: {x: -14.722249, y: 4.0959835, z: 6.6165576}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1366,7 +1366,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405635486}
-  m_LocalRotation: {x: 0.022436569, y: 0.87870294, z: 0.041502632, w: -0.4750319}
+  m_LocalRotation: {x: 0.022436563, y: 0.87870294, z: 0.04150262, w: -0.47503197}
   m_LocalPosition: {x: 3.6, y: -6.74, z: -1.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1864,6 +1864,7 @@ GameObject:
   - component: {fileID: 536854081}
   - component: {fileID: 536854080}
   - component: {fileID: 536854084}
+  - component: {fileID: 536854085}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1971,6 +1972,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCamera: {fileID: 467840351}
+--- !u!114 &536854085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536854079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933fa345d95bbd346ba35c3681442e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &554151642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,7 +2846,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792136529}
-  m_LocalRotation: {x: -0.018624103, y: -0.52931315, z: -0.011623027, w: 0.8481425}
+  m_LocalRotation: {x: -0.018624114, y: -0.5293131, z: -0.011623032, w: 0.84814256}
   m_LocalPosition: {x: 12.46, y: -6.31, z: -13.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4188,6 +4201,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 536854085}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1322547552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5114,7 +5139,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110015032}
-  m_LocalRotation: {x: -0.0025403472, y: 0.99745965, z: -0.050209932, w: -0.05046599}
+  m_LocalRotation: {x: -0.0025403497, y: 0.99745965, z: -0.05020995, w: -0.050466023}
   m_LocalPosition: {x: -10.67, y: -0.27, z: 12.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

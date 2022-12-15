@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CharMovementTestScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/MenuMain.unity
+    guid: 6853e5de09ea82c448637d0844c19eba
+  - enabled: 1
     path: Assets/Scenes/Mother Scene.unity
     guid: 95d2f8c883cf848a59229795ff5e0118
   - enabled: 1

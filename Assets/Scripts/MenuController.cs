@@ -7,6 +7,17 @@ public class MenuController : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadScene("Mother Scene");
+
+        StartCoroutine(LoadNextLevel());
+    }
+
+    IEnumerator LoadNextLevel()
+    {
+        AsyncOperation loadLevel = SceneManager.LoadSceneAsync("Mother Scene");
+
+        while (!loadLevel.isDone)
+        {
+            yield return null;
+        }
     }
 }
