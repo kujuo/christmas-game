@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 376b98c7c7b727c4f96b2f26589933b5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Christmas Carols
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f6ab16bf0a077204298cc98173adb47a, type: 3}
+  - {fileID: 12800000, guid: 45105151ab6ca9b42801d6f48ce7b294, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
