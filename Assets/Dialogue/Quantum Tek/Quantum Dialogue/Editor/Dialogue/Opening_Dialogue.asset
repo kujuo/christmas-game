@@ -49,13 +49,13 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Mother
     PreviousMessage: -1
-    NextMessage: 11
+    NextMessage: 25
     MessageText: Look, I have a picture of it on my phone.
     Clip: {fileID: 0}
   - ID: 11
     Speaker: 0
     SpeakerName: Mother
-    PreviousMessage: 9
+    PreviousMessage: -1
     NextMessage: 12
     MessageText: I lost it around this time last year, probably in the move.
     Clip: {fileID: 0}
@@ -146,4 +146,10 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+  - ID: 25
+    Choices:
+    - Okay
+    NextMessages: 0b000000
+    ChoiceActions:
+    - {fileID: 7282878960356259880, guid: 56c2a120cf6e44bc7aa24c3977f53ab4, type: 3}
   Actions: []
