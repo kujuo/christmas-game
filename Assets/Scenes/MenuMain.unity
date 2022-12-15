@@ -285,17 +285,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143438363}
-  m_LocalRotation: {x: -0, y: 0.022190982, z: -0, w: 0.9997538}
-  m_LocalPosition: {x: 0, y: 0, z: -4.5}
+  m_LocalRotation: {x: -0, y: 0.020083724, z: -0, w: 0.99979836}
+  m_LocalPosition: {x: 0, y: 0, z: -3.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 261474981}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 2.543, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 2.302, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.3, y: -27.29}
+  m_AnchoredPosition: {x: 110.52, y: -27.29}
   m_SizeDelta: {x: 223.676, y: 55.3003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143438365
@@ -320,8 +320,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ready for an adventure \nto find your mom her \nChristmas presence?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 218.13585, w: 53.169407}
+  m_margin: {x: 0, y: 0, z: 215.42424, w: 50.852024}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3622,7 +3622,7 @@ PrefabInstance:
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0101
+      value: 0.8231305
       objectReference: {fileID: 0}
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
@@ -3637,17 +3637,17 @@ PrefabInstance:
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5921
+      value: -4.3736
       objectReference: {fileID: 0}
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.7902
       objectReference: {fileID: 0}
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.7904
+      value: -1.7908
       objectReference: {fileID: 0}
     - target: {fileID: 4524140753940209100, guid: 005e55b2d9b5f41cebc18028eec21a00,
         type: 3}
