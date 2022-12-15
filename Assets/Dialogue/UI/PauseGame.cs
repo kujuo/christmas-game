@@ -22,7 +22,7 @@ public class PauseGame : MonoBehaviour
 
     public void QuitGame()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("MenuMain");
         //Application.Quit();
     }
