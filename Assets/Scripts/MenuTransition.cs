@@ -19,4 +19,6 @@ public class MenuTransition : MonoBehaviour
         currentCamera = target;
         currentCamera.Priority++;
     }
+
+
 }
