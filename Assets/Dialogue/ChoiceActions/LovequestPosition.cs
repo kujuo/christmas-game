@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LovequestPosition : MonoBehaviour
+public class LovequestPosition : Action
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject Postman;
+    public GameObject ReindeerFarmer;
+    public override void DoAction()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Vector3 distanceToPostman = Postman.transform.position - ReindeerFarmer.transform.position;
+        Vector3 Offset = new Vector3(30.0f, 30.0f);
+        Vector3 NewPosition = distanceToPostman + Offset;
+        ReindeerFarmer.transform.position += NewPosition;
     }
 }

@@ -2561,7 +2561,7 @@ MonoBehaviour:
       - Good luck!
       NextMessages: 15000000
       ChoiceActions:
-      - {fileID: 0}
+      - {fileID: 9071658724728104022, guid: 527b540e409f5498fb392428e18dae15, type: 3}
   - ID: 19
     Type: 2
     Window:
@@ -2596,4 +2596,4 @@ MonoBehaviour:
       - Good luck.
       NextMessages: 14000000
       ChoiceActions:
-      - {fileID: 0}
+      - {fileID: 9071658724728104022, guid: 527b540e409f5498fb392428e18dae15, type: 3}
