@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Mother Scene.unity
     guid: 95d2f8c883cf848a59229795ff5e0118
   - enabled: 1
-    path: Assets/Scenes/Diep environment.unity
+    path: Assets/Scenes/Game Scene.unity
     guid: 3d4b06fb1bfa34594bc218a312ec132a
   m_configObjects: {}
